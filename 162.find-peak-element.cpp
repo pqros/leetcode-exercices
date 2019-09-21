@@ -1,3 +1,8 @@
+/*
+ * @lc app=leetcode id=162 lang=cpp
+ *
+ * [162] Find Peak Element
+ */
 class Solution {
 public:
     void helper(vector<int>& nums, int left, int right, int& result) {
@@ -31,4 +36,6 @@ public:
        return result;
     }
 };
+
+
 
